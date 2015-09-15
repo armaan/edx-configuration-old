@@ -1,10 +1,10 @@
 ---
 
-# Installs mongo.
+# Installs mariadb.
 
 - name: Configure instance(s)
   hosts: all
   sudo: True
   gather_facts: True
   roles:
-    - mongo
+    - mariadb
