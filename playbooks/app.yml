@@ -1,0 +1,12 @@
+# Prepare an app server.
+- hosts: all
+  sudo: yes
+- include: memcached.yml
+- include: elasticsearch.yml
+- include: xqueue.yml
+- include: ora.yml
+- include: certs.yml
+- include: forum.yml
+- include: cms.yml
+- include: lms.yml
+- include: workers.yml 
