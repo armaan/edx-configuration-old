@@ -1,0 +1,7 @@
+---
+- name: Install memcached
+  hosts: all
+  sudo: True
+  gather_facts: True
+  roles:
+    - memcached
