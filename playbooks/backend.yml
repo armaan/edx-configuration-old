@@ -2,6 +2,6 @@
 # Prepare a backend server.
 - hosts: all
   sudo: yes
-  include: mongo.yml
-  include: mariadb.yml
-  include: rabbitmq.yml
+-include: mongo.yml
+-include: mariadb.yml
+-include: rabbitmq.yml
