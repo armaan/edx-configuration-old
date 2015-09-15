@@ -1,0 +1,10 @@
+---
+
+# Installs mongo.
+
+- name: Configure instance(s)
+  hosts: all
+  sudo: True
+  gather_facts: True
+  roles:
+    - mongo
