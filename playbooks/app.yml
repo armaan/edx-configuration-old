@@ -1,7 +1,7 @@
 # Prepare an app server.
 - hosts: all
   sudo: yes
-- include: elasticsearch.yml
+- include: esearch.yml
 - include: xqueue.yml
 - include: ora.yml
 - include: certs.yml
