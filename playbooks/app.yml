@@ -1,7 +1,6 @@
 # Prepare an app server.
 - hosts: all
   sudo: yes
-- include: memcached.yml
 - include: elasticsearch.yml
 - include: xqueue.yml
 - include: ora.yml
