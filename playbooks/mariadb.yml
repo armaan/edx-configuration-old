@@ -6,5 +6,8 @@
   hosts: all
   sudo: True
   gather_facts: True
+  vars:
+    MARIADB_HOST_PRIV: '%'
+    MARIADB_LISTEN_ALL: true
   roles:
     - mariadb
