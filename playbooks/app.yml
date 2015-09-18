@@ -1,7 +1,6 @@
 # Prepare an app server.
 - hosts: all
   sudo: yes
-- include: common.yml
 - include: esearch.yml
 - include: xqueue.yml
 - include: ora.yml
