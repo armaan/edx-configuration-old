@@ -3,6 +3,8 @@
   hosts: all
   sudo: True
   gather_facts: True
+  vars:
+    FORUM_MONGO_HOSTS: '192.168.122.113'
   roles:
     - role: nginx
       nginx_sites:
