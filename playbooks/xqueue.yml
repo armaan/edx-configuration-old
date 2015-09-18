@@ -3,6 +3,10 @@
   hosts: all
   sudo: True
   gather_facts: True
+  vars:
+    XQUEUE_RABBITMQ_HOSTNAME: '192.168.122.113'
+    XQUEUE_MYSQL_HOST: '192.168.122.113'
+    migrate_db: 'yes'
   roles:
     - role: nginx
       nginx_sites:
