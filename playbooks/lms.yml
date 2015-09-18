@@ -4,6 +4,9 @@
   sudo: True
   gather_facts: True
   vars:
+    EDXAPP_MONGO_HOSTS: ['192.168.122.113']
+    EDXAPP_MYSQL_HOST: '192.168.122.113'
+    EDXAPP_RABBIT_HOSTNAME: '192.168.122.113'
     service_variants_enabled:
       - lms
   roles:
