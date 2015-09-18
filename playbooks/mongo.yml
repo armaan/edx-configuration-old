@@ -6,5 +6,7 @@
   hosts: all
   sudo: True
   gather_facts: True
+  vars:
+    MONGO_BIND_IP: '0.0.0.0'
   roles:
     - mongo
