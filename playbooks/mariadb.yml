@@ -7,7 +7,7 @@
   sudo: True
   gather_facts: True
   vars:
-    MARIADB_HOST_PRIV: '%'
+    MARIADB_HOST_PRIV: '192.168.122.113'
     MARIADB_LISTEN_ALL: true
   roles:
     - mariadb
